@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft: HTML Edition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CodeCraft: HTML Edition</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://example.com" target="_blank">Section 1</a></li>
+            <li><a href="https://example.com" target="_blank">Section 2</a></li>
+            <li><a href="https://example.com" target="_blank">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is the content of section 1.</p>
+            <p><a href="https://example.com" target="_blank">Go to Section2</a></p>
+            <p><a href="https://example.com" target="_blank">Go to Section3</a></p>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is the content of section 2.</p>
+            <p><a href="https://example.com" target="_blank">Go to Section1</a></p>
+            <p><a href="https://example.com" target="_blank">Go to Section3</a></p>
+        </section>
+
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>This is the content of section 3.</p>
+            <p><a href="https://example.com" target="_blank">Go to Section1</a></p>
+            <p><a href="https://example.com" target="_blank">Go to Section2</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CodeCraft: HTML Edition</p>
+    </footer>
+</body>
+</html>
